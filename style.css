@@ -1,0 +1,153 @@
+body{
+     font: 15px/1.5 arial, helvetica, sans-serif;
+     padding: o;
+     margin: o;
+     background-color: gold;
+}
+.container{
+     width: 80%;
+     margin: auto;
+     overflow: hidden;
+}
+
+ul{
+     margin: 0;
+     padding: 0;
+}
+.dark{
+     padding: 15px;
+     background: green;
+     color: white;
+     margin-top: 10px;
+     margin-bottom: 10px;
+
+}
+
+header{
+     background: greenyellow;
+     color: white;
+     padding-top: 30px;
+     min-height: 70px;
+     border-bottom: #ffffff 5px solid;
+}
+
+header a{
+     color: #ffffff;
+     text-decoration: none;
+     text-transform: uppercase;
+     font-size: 16px;
+}
+
+header p{
+     font-size: 1.1em;
+     margin-top: 10px;
+}
+
+header li{
+     float: left;
+     display: inline;
+     padding: 0 20px 0 20px;
+
+}
+
+header #branding{
+     float: left;
+}
+
+header #branding h1{
+     margin: o;
+
+}
+
+header nav{
+     float: right;
+     margin-top: 10px;
+
+}
+
+.verse-section{
+     background-color: #fdf5e6;
+     padding: 40px 20px;
+     text-align: center;
+     font-style:italic;
+     font-size: 1.2em;
+     
+}
+
+.content-section{
+     padding: 60px 20px;
+     max-width: 1100px;
+     margin: auto;
+}
+
+.content-section h2{
+     font-size: 2em;
+     text-align: center;
+     margin-bottom: 40px;
+}
+
+.church-image{
+     display: block;
+     margin: 0 auto 30px;
+     max-width: 100%;
+     border-radius: 10px;
+     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.serices-grid{
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+     gap: 30px;
+}
+
+.service-card{
+     background-color: #ffffff;
+     border: 1px solid #f1e3c6;
+     border-left: 5px solid #d4af37;
+     padding: 20px;
+     border-radius: 12px;
+     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+     transition: transform 0.3s ease, box-shadow 0.3 ease;
+}
+
+.service-card:hover{
+     transform: rotateY(180 deg);
+     transform: translateY(-5);
+     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h3{
+     color:#d4af37;
+     margin-bottom: 10px;
+     font-size: 1.2em;
+}
+
+
+.service-card p{
+     margin: 0;
+     font-size: 0.95em;
+     line-height: 1.6;
+}
+
+
+article#main-col{
+     float: left;
+     width: 65%;
+}
+
+div#services li{
+     list-style: none;
+     padding: 20px;
+     border: #cccccc solid 1px;
+     margin-bottom: 10px;
+     background: #ffffff 3px solid;
+}
+
+footer{
+     padding: 20px;
+     margin-top: 20px;
+     color: black;
+     background-color: green;
+     text-align: center;
+     border-top: #ffffff 5px solid;
+}
